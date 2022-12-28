@@ -1,0 +1,100 @@
+{
+    "name": "Cool & Clear",
+
+    "variables":
+    {
+        "c_background": "white",
+        "c_default": "black",
+        "c_selection": "#CDF",
+
+        "c_comment": "#075",
+        "c_keyword": "#00E",
+        "c_literal": "#80C",
+        "c_error": "#E00",
+        "c_error_bg": "#FDD"
+    },
+
+    "globals":
+    {
+        "background": "var(c_background)",
+        "foreground": "var(c_default)",
+        "caret": "var(c_default)",
+        "selection": "var(c_selection)",
+        "misspelling": "var(c_error)"
+    },
+
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(c_comment)"
+        },
+        {
+            "name": "Character",
+            "scope": "constant.character",
+            "foreground": "var(c_literal)"
+        },
+        {
+            "name": "Language Constant",
+            "scope": "constant.language",
+            "foreground": "var(c_keyword)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(c_literal)"
+        },
+        {
+            "name": "Symbol",
+            "scope": "constant.other.symbol",
+            "foreground": "var(c_literal)"
+        },
+        {
+            "name": "XML Tag",
+            "scope": "entity.name.tag",
+            "foreground": "var(c_keyword)"
+        },
+        {
+            "name": "Error",
+            "scope": "invalid.illegal",
+            "foreground": "var(c_error)",
+            "background": "var(c_error_bg)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(c_keyword)"
+        },
+        {
+            "name": "class Keyword",
+            "scope": "keyword.declaration.class",
+            "foreground": "var(c_keyword)"
+        },
+        {
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "var(c_default)"
+        },
+        {
+            "name": "Type or Modifier",
+            "scope": "storage",
+            "foreground": "var(c_keyword)"
+        },
+        {
+            "name": "Class Name",
+            "scope": "storage.type.class",
+            "foreground": "var(c_default)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(c_literal)"
+        },
+        {
+            "name": "Language Variable",
+            "scope": "variable.language",
+            "foreground": "var(c_keyword)"
+        }
+    ]
+}
