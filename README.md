@@ -2,7 +2,7 @@
 
 A tastefully minimal, high contrast, light-mode syntax coloring scheme for Sublime Text.
 
-[Ruby Sample](Assets/CnC Sample Ruby.png)
+![Ruby Sample](Assets/CnC%20Sample%20Ruby.png)
 
 Cool & Clear is...
 
