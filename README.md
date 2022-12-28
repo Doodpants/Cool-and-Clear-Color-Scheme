@@ -17,8 +17,8 @@ colors:
 - <span style="color: #00E; font-family: monospace;">Blue</span> for language keywords
 - <span style="color: #80C; font-family: monospace;">Purple</span> for literals, such as
     strings and numbers
-- <span style="color: #E00; background-color: #FDD; font-family: monospace;">Red on
-    red</span> for syntax errors (which in practice will rarely be seen)
+- <span style="color: #E00; background-color: #FDD; font-family: monospace;">Red-on-red</span>
+    for syntax errors (which in practice will rarely be seen)
 - <span style="color: #000; font-family: monospace;">Black</span> for everything else
 
 #### High Contrast
