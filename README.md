@@ -37,7 +37,7 @@ Perhaps many programmers prefer to work this way, but I do not.
 
 ### Installation
 #### Via Package Control
-1. Invoke `Tools > Coomand Palette` in the menu bar
+1. In Sublime Text, invoke `Tools > Command Palette` in the menu bar
 2. Select `Package Control: Install Package` in the command palette
 3. Type "Cool & Clear" in the search bar, and click on "Cool & Clear" in the list of results
 
