@@ -33,5 +33,20 @@ sufficiently dark colors for text.
 There seem to be many more light-on-dark color schemes in the wild than the reverse.
 Perhaps many programmers prefer to work this way, but I do not.
 
+---
+
+### Installation
+#### Via Package Control
+1. Invoke `Tools > Coomand Palette` in the menu bar
+2. Select `Package Control: Install Package` in the command palette
+3. Type "Cool & Clear" in the search bar, and click on "Cool & Clear" in the list of results
+
+#### Manual Installation
+1. Download the `Cool & Clear.sublime-color-scheme` file
+2. Invoke `Sublime Text > Settings... > Browse Packages...` (Mac) or `Preferences > Browse Packages...` (Windows) to open the `Packages` folder
+3. Move `Cool & Clear.sublime-color-scheme` into the `User` subfolder
+
+---
+
 ### About
-Created by Karl von Laudermann. Copyright 2022. MIT Licensed.
+Copyright © 2022 Karl von Laudermann. MIT Licensed.
