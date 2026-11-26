@@ -87,6 +87,11 @@
             "foreground": "var(c_default)"
         },
         {
+           "name": "Array Brackets",
+           "scope": "storage.modifier.array",
+           "foreground": "var(c_default)"
+        },
+        {
             "name": "String",
             "scope": "string",
             "foreground": "var(c_literal)"
